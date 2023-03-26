@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+h1, h2{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Cardo', serif;
+
+}
+.first{
+    /* background: url(img/002.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.2),transparent),url(img/002.jpg);
+    width: 100%;
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+}
+.first h3{
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 1%;
+    margin: 6px;
+    font-size: 1rem;
+}
+.first h3 span{
+    background: rgb(223, 141, 19);
+}
+.first h1{
+    font-size: 5rem;
+    color: rgb(45, 48, 47);
+    
+}
+
+.navbar-collapse{
+    padding: 0% 2% 0%;
+    font-size: 0.9rem;
+
+}
+.main{
+    padding: 4% 10% 8%;
+    
+}
+#second{
+    margin: 5% 6% 10%;
+    text-align: center;
+}
+#second img{
+    height: 50px;
+    width: 50px;
+    margin: 3%;
+}
+#third{
+    
+   
+}
+#third h2{
+    padding: 8%;
+    font-size: 3rem;
+}
+#third .card{
+    margin: 1%;
+}
+#third p{
+    font-size: 0.9rem;
+}
+
+#fourth{
+    margin: 10% 0 10% 0;
+    padding: 3% 0 13% 0;
+
+
+   
+}
+#fourth h2{
+    
+    font-size: 3.5rem;
+    padding: 3%;
+}
+#fourth .project-row{
+
+    justify-content: center;
+
+}
+#fourth .setbg{
+    height: 200px;
+    width: 240px;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: #000;
+
+}
+#fourth .setbg01{
+    background-image: linear-gradient(rgba(0,0,0,3),transparent),url(img/web1.png);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    color: #fff;
+    
+}
+
+#fourth .setbg02{
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/web2.png);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    color: #fff;
+}
+#fourth .setbg03{
+    background-image: linear-gradient(rgba(0,0,0,0.2),transparent),url(img/web3.png);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    color: white;
+}
+#fourth button{
+    background: rgb(252, 251, 251);
+ 
+}
+#fifth{
+    
+    background: #ffffff;
+    text-align: center;
+    font-size: 0.7rem;
+}
+#fifth h2{
+    padding: 10%;
+    font-size: 3.5rem;
+}
+#fifth i{
+    
+    color: #e07e3d;
+    font-size: 2.5rem;
+
+}
+#fifth .card-fifth{
+    padding: 2%;
+
+}
+#fifth .card-fifth h3{
+    font-size: 1rem;
+    padding: 22%;
+}
+#lastpart{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 10%;
+}
+#lastpart p{
+    margin: 5% 0 0 0;
+}
+#lastpart .contect-row{
+    padding: 8% 8% 0 8%;
+}
+
+#lastpart i{
+    color: #fca028;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #fourth .setbg{
+        height: 150px;
+        width: 180px;
+        border-style: solid;
+        border-radius: 2px;
+        border-width: 5px;
+    
+    }
+
+  }
